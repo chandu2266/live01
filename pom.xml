@@ -82,4 +82,11 @@
       </plugins>
     </pluginManagement>
   </build>
+ <distributionManagement>
+    <repository>
+      <id>nexus</id>
+      <name>project-1</name>
+      <url>http://3.108.61.142:8081/repository/project-1/</url>
+    </repository>
+ </distributionManagement>
 </project>
